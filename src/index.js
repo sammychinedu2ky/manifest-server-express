@@ -9,7 +9,7 @@ let zipFile = require("./process/zipFile");
 let delDocs = require("./process/delDocs");
 
 app.get("/", (req, res) => {
-  return res.json({say:"hi"})
+  res.json({say:"hi"})
 });
 app.use(createFolders, createImages, writeManifest, zipFile, delDocs);
 

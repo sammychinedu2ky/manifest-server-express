@@ -11,8 +11,10 @@ let delDocs = require("./process/delDocs");
 app.get("/", (req, res) => {
   res.json({say:"hi"})
 });
-app.use(createFolders, createImages, writeManifest, zipFile, delDocs);
-
+app.post("/upload",createFolders, createImages, writeManifest, zipFile, delDocs);
+app.use("/*",(req,res)=>{
+  return{say:"hi"}
+})
 
 app.listen(process.env.PORT || 5000, () => {
   console.log("server is listening");

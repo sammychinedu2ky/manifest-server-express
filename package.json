@@ -15,7 +15,8 @@
     "express-session": "^1.17.0",
     "formidable": "^1.2.1",
     "nodemon": "^2.0.2",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "sharp":"latest"
   },
   "nodemonConfig": {
     "ignore": [

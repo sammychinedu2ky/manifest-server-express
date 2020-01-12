@@ -13,6 +13,6 @@ app.use(createFolders, createImages, writeManifest, zipFile, delDocs);
 app.get("/", (req, res) => {
   return res.json({say:"hi"})
 });
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("server is listening");
 });

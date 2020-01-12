@@ -3,7 +3,6 @@ let fs = require("fs");
 let app = express();
 let genid = require("uuid");
 let session = require("express-session");
-let { parse, stringify } = require("flatted/cjs");
 let createFolders = require("./process/createfolders");
 let createImages = require("./process/createimages");
 let writeManifest = require("./process/writeManifest");

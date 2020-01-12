@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src"
   },
   "keywords": [],
@@ -14,13 +13,14 @@
     "archiver": "^3.1.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "flatted": "^2.0.1",
     "formidable": "^1.2.1",
     "nodemon": "^2.0.2",
     "uuid": "^3.3.3"
   },
   "nodemonConfig": {
-    "ignore": ["*.zip"],
+    "ignore": [
+      "*.zip"
+    ],
     "delay": "7500"
   }
 }

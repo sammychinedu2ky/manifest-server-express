@@ -10,7 +10,9 @@ let delDocs = require("./process/delDocs");
 
 app.use(createFolders, createImages, writeManifest, zipFile, delDocs);
 
-app.get("/", (req, res) => {});
+app.get("/", (req, res) => {
+  return res.json({say:"hi"})
+});
 app.listen(5000, () => {
   console.log("server is listening");
 });

@@ -14,14 +14,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "formidable": "^1.2.1",
-    "nodemon": "^2.0.2",
     "uuid": "^3.3.3",
     "sharp":"latest"
-  },
-  "nodemonConfig": {
-    "ignore": [
-      "*.zip"
-    ],
-    "delay": "7500"
-  }
+  }  
 }

@@ -7,7 +7,7 @@ This app helps to simplify the creation of your manifest.json file for your Prog
 The Web App Manifest generator allows for specifying icons of varying sizes. Upload an image for the icon and it would generate the remaining sizes.
 I wanted to make a little bench mark using graphql upload and plain express. so I ended up creating two servers:- 
 
- - A microservice using plain express
+ - A microservice using plain express.
  - A microservice using the apollo-server-express middleware
 Plain express.js ended up being faster. 
 

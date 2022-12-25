@@ -30,4 +30,4 @@ The sites link can be found [here](https://manifest-gen.netlify.com/)
 ---
 
   
-Enjoy!!!
+
